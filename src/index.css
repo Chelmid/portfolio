@@ -1,11 +1,49 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
 
-.mode-light > div > div > div >  img {
-    border: 3px solid #0044aa;
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.mode-light>div>div {
+    >div>div {
+        >button {
+            >span {
+                border: 3px dashed #58c7fa;
+
+            }
+
+            >div {
+                border: 3px solid #0044aa;
+            }
+        }
+    }
+
+    >div {
+        >img {
+            border: 3px solid #0044aa;
+        }
+    }
 }
 
-.mode-dark > div > div > div > img {
-    border: 3px solid #58c7fa;
+.mode-dark>div>div {
+    >div>div {
+        >button {
+            >span {
+                border: 3px dashed #eab308;
+
+            }
+
+            >div {
+                background-color: #0044aa;
+                border: 3px solid #58c7fa;
+                color: #eab308;
+
+            }
+        }
+    }
+
+    >div {
+        >img {
+            border: 3px solid #58c7fa;
+        }
+    }
 }
