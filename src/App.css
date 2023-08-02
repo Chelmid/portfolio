@@ -1,9 +1,9 @@
-.mode-dark {
-    background-color: black;
-    height: 200px;
+.mode-light {
+    background-color: #eceffe;
+    color: #0044aa;
 }
 
-.mode-light {
-    background-color: white;
-    height: 200px;
+.mode-dark {
+    background-color: #1c2b51;
+    color: #58c7fa;
 }

@@ -1,26 +1,25 @@
 import { useContext, useState } from "react";
-import { ModeLightDarkContext } from "../../utils/ModeLightDark";
+import { DARK, LIGHT, ModeLightDarkContext } from "../../utils/ModeLightDark";
 
 type ButtonProps = {
   title?: string;
   modeLightDarkActive?: boolean;
   modeLanguage?: boolean;
-  className?: string;
 };
 
 /** Selected mode light or dark */
 const choiceIcons = (status: boolean) => {
   const dark = (
     <svg
-      className="h-6 w-6 text-black m-auto"
+      className={`h-6 w-6 ${status ? "text-" + DARK : "text-" + LIGHT} m-auto`}
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      stroke-width="2"
+      strokeWidth="2"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round">
+      strokeLinecap="round"
+      strokeLinejoin="round">
       <path stroke="none" d="M0 0h24v24H0z" />
       <path d="M16.2 4a9.03 9.03 0 1 0 3.9 12a6.5 6.5 0 1 1 -3.9 -12" />
     </svg>
@@ -28,13 +27,13 @@ const choiceIcons = (status: boolean) => {
 
   const light = (
     <svg
-      className="h-6 w-6 text-black m-auto"
+      className={`h-6 w-6 ${status ? "text-" + DARK : "text-" + LIGHT} m-auto`}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round">
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round">
       <circle cx="12" cy="12" r="5" /> <line x1="12" y1="1" x2="12" y2="3" />{" "}
       <line x1="12" y1="21" x2="12" y2="23" />{" "}
       <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />{" "}
@@ -46,8 +45,8 @@ const choiceIcons = (status: boolean) => {
     </svg>
   );
 
-  if (!status) return <div className="m-auto">{dark}</div>;
-  if (status) return <div className="m-auto">{light}</div>;
+  if (!status) return <>{dark}</>;
+  if (status) return <>{light}</>;
 };
 
 /** Language */
@@ -57,7 +56,6 @@ export const Button = ({
   title = "",
   modeLightDarkActive = false,
   modeLanguage = false,
-  className = "",
 }: ButtonProps) => {
   const [statusLightDark, setStatusLightDark] = useState(true);
   const [languageSelected, setLanguageSelected] = useState("FR");
@@ -67,7 +65,7 @@ export const Button = ({
   return (
     <div>
       <button
-        className={`w-20 h-10 border-4 border-lime-500/100 text-center pt-1 ${className}`}
+        className={`w-12 h-12 text-center pt-1 `}
         onClick={() => {
           if (modeLightDarkActive) {
             setStatusLightDark(!statusLightDark);
@@ -81,8 +79,12 @@ export const Button = ({
           }
         }}>
         <div>{title && title}</div>
-        <div>{modeLanguage && languageSelected} </div>
-        <div>{modeLightDarkActive && choiceIcons(statusLightDark)}</div>
+        <div className="transition ease-in-out translate-y-1 hover:scale-150 duration-300 hover:text-yellow-500">
+          {modeLanguage && languageSelected}{" "}
+        </div>
+        <div className="transition ease-in-out translate-y-1 hover:scale-150 duration-300 hover:text-yellow-500">
+          {modeLightDarkActive && choiceIcons(statusLightDark)}
+        </div>
       </button>
     </div>
   );

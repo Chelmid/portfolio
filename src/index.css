@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mode-light > div > div > div >  img {
+    border: 3px solid #0044aa;
+}
+
+.mode-dark > div > div > div > img {
+    border: 3px solid #58c7fa;
+}
