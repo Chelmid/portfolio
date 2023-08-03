@@ -7,7 +7,7 @@ type SectionProps = {
 
 export const Section = ({ children, title }: SectionProps) => {
   return (
-    <div className="py-20 border-t-2 border-yellow-500">
+    <div className="py-20 border-t-2 section">
       <h3 className="text-center text-4xl font-normal leading-normal">
         {title}
       </h3>

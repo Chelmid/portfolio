@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { DARK, LIGHT, ModeLightDarkContext } from "../../utils/ModeLightDark";
+import { useTranslation } from "react-i18next";
 
 type ButtonProps = {
   title?: string;
@@ -62,6 +63,8 @@ export const Button = ({
 
   const { toggleModeLightDark } = useContext(ModeLightDarkContext);
 
+  const { i18n } = useTranslation();
+
   return (
     <div>
       <button
@@ -76,6 +79,7 @@ export const Button = ({
               (language) => language !== languageSelected
             );
             setLanguageSelected(findLanguage as string);
+            i18n.changeLanguage(findLanguage?.toLowerCase());
           }
         }}>
         <div>{title && title}</div>

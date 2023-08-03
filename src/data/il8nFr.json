@@ -1,0 +1,10 @@
+{
+    "Hello": "Bonjour",
+    "job":{
+        "developer" : "développeur"
+    },
+    "description": {
+      "part1": "This is a simple example.",
+      "part2": "😉"
+    }
+}

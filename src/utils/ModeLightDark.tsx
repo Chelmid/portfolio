@@ -1,28 +1,30 @@
-import { createContext, useState } from "react";
+import { ReactNode, createContext, useState } from "react";
 
 export const DARK = "#58c7fa";
 export const LIGHT = "#0044aa";
 
-type ModeLightDark = {
+type ModeLightDarkProps = {
   ModeLightDark?: boolean;
   toggleModeLightDark?: () => void;
 };
+type ModeLightDarkProviderProps = {
+  children: ReactNode;
+};
 
 /** Context */
-const ModeLightDarkContext = createContext<ModeLightDark>({});
+const ModeLightDarkContext = createContext<ModeLightDarkProps>({});
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const ModeLightDarkProvider = (props: any) => {
+const ModeLightDarkProvider = ({ children }: ModeLightDarkProviderProps) => {
   const [ModeLightDark, setModeLightDark] = useState(false);
   const toggleModeLightDark = () => {
-    setModeLightDark(!ModeLightDark);
+    setModeLightDark((current) => !current);
   };
 
   return (
     <>
       <ModeLightDarkContext.Provider
         value={{ ModeLightDark, toggleModeLightDark }}>
-        {props.children}
+        {children}
       </ModeLightDarkContext.Provider>
     </>
   );
