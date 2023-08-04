@@ -1,4 +1,10 @@
-export const CardProjet = () => {
+import { Bagde } from "./Badge";
+
+type CardProjetProps = {
+  namesBadge?: string[];
+};
+
+export const CardProjet = ({ namesBadge }: CardProjetProps) => {
   return (
     <div className="p-5 m-auto">
       <div>
@@ -13,21 +19,22 @@ export const CardProjet = () => {
                 alt="Woman looking front"
               />
               <h2 className="mt-4 text-xl font-medium">Go around the world</h2>
-              <h2 className="mt-4  font-medium ">Go around the world</h2>
+              <Bagde namesBadge={namesBadge} />
             </div>
 
-            <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8">
+            <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100">
               <h2 className="mt-4 text-xl font-medium sm:text-2xl">
                 Go around the world
               </h2>
 
               <p className="mt-4 text-sm sm:text-base">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, praesentium voluptatem omnis atque culpa
-                repellendus.
+                Cupiditate, praesentium voluptatem omnis atque culpa Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Cupiditate,
+                praesentium voluptatem omnis atque culpa repellendus. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                praesentium voluptatem omnis atque culpa
               </p>
-
-              <p className="mt-8 font-bold">Read more</p>
             </div>
           </div>
         </button>
