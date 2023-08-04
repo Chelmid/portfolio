@@ -2,7 +2,7 @@ import { dataExperience } from "../../data/experience";
 
 export const Experience = () => {
   return (
-    <div className="flex justify-center py-20">
+    <div className="flex justify-center py-10">
       <div>
         {dataExperience?.map((item, index) => (
           <div className="-my-6" key={index}>

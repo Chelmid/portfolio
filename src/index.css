@@ -4,9 +4,7 @@
 @import "tailwindcss/utilities";
 
 .mode-light {
-    >.section {
-        border-top: 3px solid #4f46e5;
-    }
+    >.section {}
 
     >div>div {
         >div>div {
@@ -43,6 +41,9 @@
             >img {
 
                 background-color: #c7d2fe;
+                box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+                filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+
             }
         }
     }
@@ -50,9 +51,7 @@
 
 
 .mode-dark {
-    >.section {
-        border-top: 3px solid #e0e7ff;
-    }
+    >.section {}
 
     >div>div {
         >div>div {
@@ -88,6 +87,8 @@
         >div {
             >img {
                 background-color: #a5f3fc;
+
+                filter: drop-shadow(0 25px 25px #a5f3fc);
             }
         }
     }

@@ -1,10 +1,10 @@
 {
     "hello": "Hello",
     "job":{
-        "developer" : "developper"
+        "developer" : "Developper"
     },
     "description": {
-      "part1": "This is a simple example.",
+      "intro": "This is a simple example.",
       "part2": "😉"
     }
 }

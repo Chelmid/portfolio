@@ -1,11 +1,20 @@
 import { Button } from "./Button";
 
-export const Menu = () => {
+type MenuProps = {
+  activeButtons?: boolean;
+};
+
+export const Menu = ({ activeButtons = false }: MenuProps) => {
   return (
-    <div>
-      <div className={`flex flex-row lg:float-right`}>
-        <Button modeLanguage />
-        <Button modeLightDarkActive />
+    <div className="flex relative justify-end z-10">
+      <div className={`flex flex-row absolute`}>
+        {activeButtons && (
+          <>
+            <Button modeGithub title="Git" />
+            <Button modeLanguage />
+            <Button modeLightDarkActive />
+          </>
+        )}
       </div>
     </div>
   );

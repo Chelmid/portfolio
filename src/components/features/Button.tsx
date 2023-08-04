@@ -6,6 +6,7 @@ type ButtonProps = {
   title?: string;
   modeLightDarkActive?: boolean;
   modeLanguage?: boolean;
+  modeGithub?: boolean;
 };
 
 /** Selected mode light or dark */
@@ -57,6 +58,7 @@ export const Button = ({
   title = "",
   modeLightDarkActive = false,
   modeLanguage = false,
+  modeGithub = false,
 }: ButtonProps) => {
   const [statusLightDark, setStatusLightDark] = useState(true);
   const [languageSelected, setLanguageSelected] = useState("FR");
@@ -68,7 +70,7 @@ export const Button = ({
   return (
     <div>
       <button
-        className={`w-12 h-12 text-center pt-1 `}
+        className={`w-10 h-10 text-center m-2 rounded-full bg-white transition ease-in-out translate-y-1 hover:scale-125 duration-300 hover:text-yellow-500`}
         onClick={() => {
           if (modeLightDarkActive) {
             setStatusLightDark(!statusLightDark);
@@ -81,12 +83,14 @@ export const Button = ({
             setLanguageSelected(findLanguage as string);
             i18n.changeLanguage(findLanguage?.toLowerCase());
           }
+          if (modeGithub) {
+            console.log("Github");
+            window.open("http://google.com", "_blank");
+          }
         }}>
-        <div>{title && title}</div>
-        <div className="transition ease-in-out translate-y-1 hover:scale-150 duration-300 hover:text-yellow-500">
-          {modeLanguage && languageSelected}{" "}
-        </div>
-        <div className="transition ease-in-out translate-y-1 hover:scale-150 duration-300 hover:text-yellow-500">
+        <div className="">{title && title}</div>
+        <div className="">{modeLanguage && languageSelected}</div>
+        <div className="">
           {modeLightDarkActive && choiceIcons(statusLightDark)}
         </div>
       </button>
