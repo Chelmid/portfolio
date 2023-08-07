@@ -22,7 +22,6 @@ export const Body = () => {
       <Section title="Mon parcours">
         <div className="flex">
           <Experience />
-          <Experience />
         </div>
       </Section>
     </>

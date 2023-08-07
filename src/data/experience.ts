@@ -12,7 +12,7 @@ export const dataExperience = [
         date: "August 2023",
         name: "Développeur chez Océan",
         city: "Saint-Denis",
-        description: "",
+        description: "blabla",
       },
     },
     {
@@ -20,7 +20,7 @@ export const dataExperience = [
         date: "August 2023",
         name: "Développeur chez Océan",
         city: "Saint-Denis",
-        description: "",
+        description: "blabla",
       },
     },
     {
@@ -28,7 +28,7 @@ export const dataExperience = [
         date: "August 2023",
         name: "Développeur chez Océan",
         city: "Saint-Denis",
-        description: "",
+        description: "blabla",
       },
     },
     {
@@ -36,7 +36,7 @@ export const dataExperience = [
         date: "August 2023",
         name: "Développeur chez Océan",
         city: "Saint-Denis",
-        description: "",
+        description: "blabla",
       },
     },
     {
@@ -44,7 +44,7 @@ export const dataExperience = [
         date: "August 2023",
         name: "Développeur chez Océan",
         city: "Saint-Denis",
-        description: "",
+        description: "blabla",
       },
     },
   ];
