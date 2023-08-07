@@ -2,11 +2,11 @@ import { dataExperience } from "../../data/experience";
 
 export const Experience = () => {
   return (
-    <div className="flex justify-center py-10">
+    <div className="flex justify-center py-10 m-auto">
       <div>
         {dataExperience?.map((item, index) => (
           <div className="-my-6" key={index}>
-            <div className="relative pl-8 sm:pl-32 py-6 group">
+            <div className="relative pl-8 sm:pl-32 py-6 group test">
               <div className="nameExperience font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">
                 {item.parcours.name}
               </div>

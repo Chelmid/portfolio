@@ -10,7 +10,7 @@ export const Body = () => {
       <Profil
         name="Michel LO"
         titleJob="job.developer"
-        description="description.intro"
+        description="job.description.intro"
       />
 
       <Section title="Les projets">
@@ -20,7 +20,10 @@ export const Body = () => {
         <TechnosIcons />
       </Section>
       <Section title="Mon parcours">
-        <Experience />
+        <div className="flex">
+          <Experience />
+          <Experience />
+        </div>
       </Section>
     </>
   );

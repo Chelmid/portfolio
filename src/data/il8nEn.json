@@ -1,10 +1,12 @@
 {
     "hello": "Hello",
     "job":{
-        "developer" : "Developper"
+        "developer" : "Developper",
+        "description": {
+          "intro": "This is a simple example.",
+          "part2": "😉"
+        }
     },
-    "description": {
-      "intro": "This is a simple example.",
-      "part2": "😉"
-    }
+    "icons" : {"more" : "And more ..."}
+    
 }

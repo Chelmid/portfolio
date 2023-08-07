@@ -1,10 +1,11 @@
 {
     "bello": "Bonjour",
     "job":{
-        "developer" : "Développeur"
+        "developer" : "Développeur",
+        "description": {
+          "intro": "C'est un simple Lorem ipsum dolor sit amet consectetur adipisicing elit.Cupiditate, praesentium voluptatem omnis atque culpa Lorem ipsumdolor sit amet consectetur adipisicing elit. Cupiditate",
+          "part2": "😉"
+        }
     },
-    "description": {
-      "intro": "C'est un simple",
-      "part2": "😉"
-    }
+    "icons" : {"more" : "Et plus ..."}
 }
