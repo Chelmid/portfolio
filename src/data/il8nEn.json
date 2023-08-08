@@ -7,6 +7,9 @@
           "part2": "😉"
         }
     },
-    "icons" : {"more" : "And more ..."}
-    
+    "icons" : {"more" : "And more ..."},
+    "FR" : "French",
+    "EN" : "English",
+    "dark" : "Dark",
+    "light": "Light"
 }

@@ -10,8 +10,8 @@ type PorfilProps = {
 export const Profil = ({ name, titleJob, description }: PorfilProps) => {
   const { t } = useTranslation();
   return (
-    <div className="m-auto w-9/12 pt-14 sm:pt-14">
-      <div className="mx-auto shadow-xl rounded-lg ">
+    <div className="m-auto w-11/12 pt-14 sm:pt-14">
+      <div className="mx-auto shadow-xl shadow-[#ffffff7a] rounded-lg ">
         <Menu activeButtons />
         <div className="rounded-t-lg h-48 overflow-hidden bg-indigo-200">
           {/* <img
@@ -37,12 +37,6 @@ export const Profil = ({ name, titleJob, description }: PorfilProps) => {
         </div>
         <div className="text-center p-10 w-3/4 m-auto">
           <p>{t(description)}</p>
-        </div>
-
-        <div className="p-4 border-t mx-8 mt-2">
-          {/* <button className="w-1/2 block mx-auto rounded-full bg-gray-900 hover:shadow-lg font-semibold text-white px-6 py-2">
-            Follow
-          </button> */}
         </div>
       </div>
     </div>

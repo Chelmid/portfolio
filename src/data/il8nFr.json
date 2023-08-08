@@ -3,9 +3,14 @@
     "job":{
         "developer" : "Développeur",
         "description": {
-          "intro": "C'est un simple Lorem ipsum dolor sit amet consectetur adipisicing elit.Cupiditate, praesentium voluptatem omnis atque culpa Lorem ipsumdolor sit amet consectetur adipisicing elit. Cupiditate",
+          "intro": "Je suis Michel, un artisan du code passionné par l'art de créer des solutions numériques. Imaginez un concepteur innovant et un magicien du développement fusionnés en une seule personne (et c'est moi qui endosse ce rôle !). J'équilibre les langages de programmation avec la grâce d'un funambule, en donnant vie à des applications et des fonctionnalités qui éblouissent. Prêt à vous embarquer dans une aventure où la technologie et le plaisir se rejoignent harmonieusement ? Suivez-moi dans ce périple captivant !",
           "part2": "😉"
         }
     },
-    "icons" : {"more" : "Et plus ..."}
+    "icons" : {"more" : "Et plus ..."},
+    "FR" : "Français",
+    "EN" : "Anglais",
+    "dark" : "Sombre",
+    "light": "Clair"
+    
 }

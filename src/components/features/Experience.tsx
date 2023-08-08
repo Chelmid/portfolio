@@ -3,11 +3,11 @@ import { FlipCard } from "./FlipCard";
 
 export const Experience = () => {
   return (
-    <div className="flex justify-center py-10 m-auto">
+    <div className="py-10 m-auto ">
       <div>
         {dataExperience?.map((item, index) => (
           <div
-            className="-my-6 flex flex-wrap experience sm:w-80 md:w-96 xl:w-full"
+            className="-my-6 flex flex-wrap experience sm:w-80 md:w-96 xl:w-full cursor-pointer"
             key={index}>
             <div className="relative pl-8 sm:pl-32 py-6 group xl:mr-20">
               <div className="nameExperience font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">

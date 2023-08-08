@@ -20,24 +20,24 @@ export const TechnosIcons = () => {
         <h3 className="text-center p-6 font-semibold text-xl">Front</h3>
         <div className="flex flex-wrap">
           <SiReact
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="React"
           />
           <SiTailwindcss
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Tailwindcss"
           />
           <SiTailwindcss
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Tailwindcss"
           />
           <FiMoreHorizontal
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end cursor-pointer"
             size={32}
-            title={t("more")}
+            title={t("icons.more")}
           />
         </div>
       </div>
@@ -45,22 +45,22 @@ export const TechnosIcons = () => {
         <h3 className="text-center p-6 font-semibold text-xl">Back</h3>
         <div className="flex flex-wrap">
           <SiSymfony
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Symfony"
           />
           <SiMysql
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="MySQL"
           />
           <SiMysql
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="MySQL"
           />
           <FiMoreHorizontal
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end cursor-pointer"
             size={32}
             title="and more ..."
           />
@@ -70,22 +70,22 @@ export const TechnosIcons = () => {
         <h3 className="text-center p-6 font-semibold text-xl">UI / UX</h3>
         <div className="flex flex-wrap">
           <SiFigma
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Figma"
           />
           <SiAdobeillustrator
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Adobe Illustrator"
           />
           <SiAdobephotoshop
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Adobe Photoshop"
           />
           <FiMoreHorizontal
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end cursor-pointer"
             size={32}
             title="and more ..."
           />
@@ -95,22 +95,22 @@ export const TechnosIcons = () => {
         <h3 className="text-center p-6 font-semibold text-xl">UI / UX</h3>
         <div className="flex flex-wrap">
           <SiFigma
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Figma"
           />
           <SiAdobeillustrator
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Adobe Illustrator"
           />
           <SiAdobephotoshop
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 cursor-pointer"
             size={64}
             title="Adobe Photoshop"
           />
           <FiMoreHorizontal
-            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end"
+            className="hover:text-blue-500 hover:scale-125 ease-in duration-200 mx-6 self-end cursor-pointer"
             size={32}
             title="and more ..."
           />

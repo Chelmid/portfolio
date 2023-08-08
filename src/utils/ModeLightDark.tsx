@@ -1,8 +1,5 @@
 import { ReactNode, createContext, useState } from "react";
 
-export const DARK = "#58c7fa";
-export const LIGHT = "#0044aa";
-
 type ModeLightDarkProps = {
   ModeLightDark?: boolean;
   toggleModeLightDark?: () => void;
