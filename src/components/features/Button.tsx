@@ -7,7 +7,6 @@ type ButtonProps = {
   modeLanguage?: boolean | string;
   link?: string;
   icons?: ReactNode | string;
-  ModeLightDark?: boolean;
   toggleModeLightDark?: () => void;
 };
 
@@ -46,9 +45,11 @@ export const Button = ({
             window.open(link, "_blank");
           }
         }}>
-        <div className="font-semibold text-xl">{title && title}</div>
+        <div className="font-bold text-xl">{title && title}</div>
         <div className="flex justify-center">{icons && icons}</div>
-        <div>{modeLanguage && languageSelected}</div>
+        <div className="font-bold text-xl">
+          {modeLanguage && languageSelected}
+        </div>
       </button>
     </div>
   );

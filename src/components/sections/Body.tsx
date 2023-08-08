@@ -1,10 +1,16 @@
+import { useContext } from "react";
+import { Button } from "../features/Button";
 import { Experience } from "../features/Experience";
 import { Profil } from "../features/Profil";
 import { Project } from "../features/Project";
 import { TechnosIcons } from "../features/TechnoIcons";
 import { Section } from "./Section";
+import { BsArrowUpCircle } from "react-icons/bs";
+import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
 
 export const Body = () => {
+  const { scrollPosition } = useContext(ScrollBarPositionContext);
+  console.log(scrollPosition);
   return (
     <>
       <Profil
@@ -24,6 +30,7 @@ export const Body = () => {
           <Experience />
         </div>
       </Section>
+      <Button icons={<BsArrowUpCircle size={40} className="" />} />
     </>
   );
 };

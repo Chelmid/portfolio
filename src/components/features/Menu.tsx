@@ -1,28 +1,16 @@
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { MdLightMode, MdNightlight } from "react-icons/md";
 import { Button } from "./Button";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { ModeLightDarkContext } from "../../utils/ModeLightDark";
+import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
 
 type MenuProps = {
   activeButtons?: boolean;
 };
 
 export const Menu = ({ activeButtons = false }: MenuProps) => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const handleScroll = () => {
-    const position = window.scrollY;
-    console.log(position);
-    setScrollPosition(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const { scrollPosition } = useContext(ScrollBarPositionContext);
 
   const { toggleModeLightDark, ModeLightDark } =
     useContext(ModeLightDarkContext);
@@ -30,7 +18,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
     <div className="flex relative justify-end z-10">
       <div
         className={`flex flex-row absolute ${
-          scrollPosition > 70 ? "test" : ""
+          scrollPosition !== undefined && scrollPosition > 70 ? "test" : ""
         }`}>
         {activeButtons && (
           <>
