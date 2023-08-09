@@ -2,7 +2,7 @@ import { ReactNode, createContext, useEffect, useState } from "react";
 
 type ScrollBarPositionContextProps = {
   scrollPosition?: number;
-  handleScroll?: () => void;
+  handleScrollReset?: (value: number) => void;
 };
 
 type ScrollBarPositionProviderProps = {
@@ -19,6 +19,7 @@ const ScrollBarPositionProvider = ({
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => setScrollPosition(window.scrollY);
+  const handleScrollReset = (value: number) => setScrollPosition(value);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -29,7 +30,8 @@ const ScrollBarPositionProvider = ({
   }, []);
 
   return (
-    <ScrollBarPositionContext.Provider value={{ scrollPosition }}>
+    <ScrollBarPositionContext.Provider
+      value={{ scrollPosition, handleScrollReset }}>
       {children}
     </ScrollBarPositionContext.Provider>
   );

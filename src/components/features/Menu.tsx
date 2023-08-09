@@ -17,12 +17,14 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
   return (
     <div className="flex relative justify-end z-10">
       <div
-        className={`flex flex-row absolute ${
-          scrollPosition !== undefined && scrollPosition > 70 ? "test" : ""
+        className={`${
+          scrollPosition !== undefined && scrollPosition > 60
+            ? "sm:block flex flex-row fixed top-0 right-0 transition duration-1000 ease-linear delay-100 bg-fuchsia-400 h-full h-16 sm:h-full rounded-full "
+            : "flex flex-row absolute"
         }`}>
         {activeButtons && (
           <>
-            <Button icons={<SiGithub size={40} title="Github" />} />
+            <Button icons={<SiGithub size={40} title="Github" />} link="" />
             <Button
               icons={
                 <SiLinkedin
@@ -31,6 +33,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
                   className="rounded-full"
                 />
               }
+              link=""
             />
             <Button modeLanguage />
             <Button

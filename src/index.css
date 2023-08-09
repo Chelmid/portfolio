@@ -4,35 +4,47 @@
 @import "tailwindcss/utilities";
 
 .mode-light {
-    >.section {}
+    >.section {
+        >div {
+            box-shadow: 0px 0px 50px -20px #ccc;
+        }
+    }
 
-    >div>div {
-        >div>div {
-            >button {
-                >span {
-                    border: 3px dashed #4f46e5;
+    >div {
+        >div {
+            >div {
+                >button {
+                    >span {
+                        border: 3px dashed #4f46e5;
 
+                    }
+
+                    >div {
+                        background-color: #e0e7ff;
+                        border: 3px solid #4f46e5;
+                        color: #4f46e5;
+                    }
                 }
 
                 >div {
-                    background-color: #e0e7ff;
-                    border: 3px solid #4f46e5;
-                    color: #4f46e5;
-                }
-            }
 
-            >div {
+                    >.nameExperience {
+                        color: #4f46e5;
+                    }
 
-                >.nameExperience {
-                    color: #4f46e5;
-                }
+                    >div>.cityExperience {
+                        color: black;
+                    }
 
-                >div>.cityExperience {
-                    color: black;
-                }
+                    >.descriptionExperience {
+                        color: black;
+                    }
 
-                >.descriptionExperience {
-                    color: black;
+                    >button {
+
+                        background-color: #e0e7ff;
+                        color: #4f46e5;
+                    }
                 }
             }
         }
@@ -51,9 +63,15 @@
 
 
 .mode-dark {
-    >.section {}
+    .section {
+        >div {
+            box-shadow: 0px 0px 50px -20px #ccc;
+        }
+    }
 
     >div>div {
+        box-shadow: 0px 0px 50px -20px #ccc;
+
         >div>div {
             >button {
                 >span {
@@ -81,13 +99,18 @@
                 >.descriptionExperience {
                     color: #e0e7ff;
                 }
+
+                >button {
+
+                    background-color: #1e3a8a;
+                    color: #67e8f9;
+                }
             }
         }
 
         >div {
             >img {
                 background-color: #a5f3fc;
-
                 filter: drop-shadow(0 25px 25px #a5f3fc);
             }
         }
@@ -145,13 +168,4 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
-}
-
-.test {
-    position: fixed;
-    top: 0;
-    background-color: red;
-    transition: 1s linear;
-    border-radius: 0 0 15px 15px;
-    box-shadow: 0px 5px 10px #c7d2fe;
 }

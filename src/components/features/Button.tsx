@@ -8,6 +8,7 @@ type ButtonProps = {
   link?: string;
   icons?: ReactNode | string;
   toggleModeLightDark?: () => void;
+  action?: () => void;
 };
 
 /** Language */
@@ -20,6 +21,7 @@ export const Button = ({
   link = "",
   icons = "",
   toggleModeLightDark,
+  action,
 }: ButtonProps) => {
   const [languageSelected, setLanguageSelected] = useState("FR");
 
@@ -29,7 +31,7 @@ export const Button = ({
     <div className="m-2">
       <button
         title={(title && t(title)) || (modeLanguage ? t(languageSelected) : "")}
-        className={`w-10 h-10 text-center rounded-full bg-white transition ease-in-out translate-y-1 hover:scale-125 duration-300 hover:text-blue-500`}
+        className={`w-10 h-10 text-center rounded-full transition ease-in-out translate-y-1 hover:scale-125 duration-300 hover:text-blue-500`}
         onClick={() => {
           if (modeLightDarkActive) {
             toggleModeLightDark?.();
@@ -43,6 +45,9 @@ export const Button = ({
           }
           if (link) {
             window.open(link, "_blank");
+          }
+          if (action) {
+            action();
           }
         }}>
         <div className="font-bold text-xl">{title && title}</div>
