@@ -2,10 +2,16 @@
     "hello": "Hello",
     "job":{
         "developer" : "Developper",
+        "developerIn" : "Developer in",
+        "integrator" : "integrator",
         "description": {
           "intro": "This is a simple example.",
           "part2": "😉"
         }
+    },
+    "section":{
+      "project": "Projects",
+      "technologies" : "Technologies"
     },
     "icons" : {"more" : "And more ..."},
     "FR" : "French",

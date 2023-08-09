@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import { useContext } from "react";
 import { ModeLightDarkContext } from "../../utils/ModeLightDark";
 import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
+import { useTranslation } from "react-i18next";
 
 type MenuProps = {
   activeButtons?: boolean;
@@ -11,37 +12,44 @@ type MenuProps = {
 
 export const Menu = ({ activeButtons = false }: MenuProps) => {
   const { scrollPosition } = useContext(ScrollBarPositionContext);
-
   const { toggleModeLightDark, ModeLightDark } =
     useContext(ModeLightDarkContext);
+  const { t } = useTranslation();
+
   return (
     <div className="flex relative justify-end z-10">
       <div
         className={`${
           scrollPosition !== undefined && scrollPosition > 60
-            ? "sm:block flex flex-row fixed top-0 right-0 transition duration-1000 ease-linear delay-100 bg-fuchsia-400 h-full h-16 sm:h-full rounded-full "
+            ? "md:block flex flex-row fixed top-0 right-0 transition duration-1000 ease-linear delay-100 bg-indigo-200 h-16 md:h-full rounded-full"
             : "flex flex-row absolute"
         }`}>
         {activeButtons && (
           <>
-            <Button icons={<SiGithub size={40} title="Github" />} link="" />
+            <Button
+              icons={<SiGithub size={36} title="Github" />}
+              link=""
+              classname="button-with-icon"
+            />
             <Button
               icons={
                 <SiLinkedin
-                  size={40}
+                  size={36}
                   title="Linkedin"
                   className="rounded-full"
                 />
               }
+              classname="button-with-icon"
               link=""
             />
-            <Button modeLanguage />
+            <Button modeLanguage classname="button-without-icon" />
             <Button
+              classname="button-without-icon"
               icons={
                 ModeLightDark ? (
-                  <MdNightlight size={32} title="dark" />
+                  <MdNightlight size={32} title={t("dark")} />
                 ) : (
-                  <MdLightMode size={32} title="light" />
+                  <MdLightMode size={32} title={t("light")} />
                 )
               }
               modeLightDarkActive

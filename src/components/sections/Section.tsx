@@ -10,7 +10,7 @@ export const Section = ({ children, title }: SectionProps) => {
     <div className="section">
       <div className="m-auto w-11/12">
         <div className="sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto shadow-xl rounded-lg py-10">
-          <h3 className="text-center text-4xl font-normal leading-normal py-6">
+          <h3 className="text-center text-4xl font-normal leading-normal py-4">
             {title}
           </h3>
           {children}

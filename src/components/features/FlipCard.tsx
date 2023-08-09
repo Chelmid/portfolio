@@ -1,11 +1,11 @@
 export const FlipCard = () => {
   return (
-    <div className="flex justify-center m-auto">
+    <div className="flex justify-end m-auto">
       <div>
         <div className="my-6">
           <div className="flip-card other">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front md">
                 <p>hello</p>
               </div>
               <div className="flip-card-back">

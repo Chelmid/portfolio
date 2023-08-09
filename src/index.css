@@ -7,11 +7,25 @@
     >.section {
         >div {
             box-shadow: 0px 0px 50px -20px #ccc;
+
+            >div>div>div>div>button {
+                >span {
+                    border: 3px dashed #4f46e5;
+                }
+
+                >div {
+                    background-color: #c7d2fe;
+                }
+            }
         }
     }
 
     >div {
         >div {
+            >.bar-profil {
+                background-color: #c7d2fe;
+            }
+
             >div {
                 >button {
                     >span {
@@ -59,18 +73,48 @@
             }
         }
     }
-}
 
+    .button-without-icon {
+        border: 2px solid white;
+        color: white;
+        background-color: #1e40af;
+    }
+
+    .button-with-icon {
+        background-color: white;
+        color: #1e40af;
+    }
+
+    .button-bottom {
+        background-color: white;
+        color: #1e40af;
+    }
+
+}
 
 .mode-dark {
     .section {
         >div {
             box-shadow: 0px 0px 50px -20px #ccc;
+
+            >div>div>div>div>button {
+                >span {
+                    border: 3px dashed #e0e7ff;
+                }
+
+                >div {
+                    background-color: #19233a;
+                }
+            }
         }
     }
 
     >div>div {
         box-shadow: 0px 0px 50px -20px #ccc;
+
+        >.bar-profil {
+            background-color: #19233a;
+        }
 
         >div>div {
             >button {
@@ -114,6 +158,23 @@
                 filter: drop-shadow(0 25px 25px #a5f3fc);
             }
         }
+    }
+
+    .button-without-icon {
+        border: 2px solid #a5f3fc;
+        color: #a5f3fc;
+        background-color: #1e40af;
+    }
+
+    .button-with-icon {
+        border: 1px solid white;
+        background-color: #a5f3fc;
+        color: #1e40af
+    }
+
+    .button-bottom {
+        background-color: #1e40af;
+        color: #a5f3fc
     }
 }
 
@@ -159,13 +220,12 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #c7d2fe;
 }
 
 /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #3b82f6;
+    color: #192353;
     transform: rotateY(180deg);
 }

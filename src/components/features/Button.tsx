@@ -7,6 +7,7 @@ type ButtonProps = {
   modeLanguage?: boolean | string;
   link?: string;
   icons?: ReactNode | string;
+  classname?: string;
   toggleModeLightDark?: () => void;
   action?: () => void;
 };
@@ -20,6 +21,7 @@ export const Button = ({
   modeLanguage = false,
   link = "",
   icons = "",
+  classname = "",
   toggleModeLightDark,
   action,
 }: ButtonProps) => {
@@ -31,7 +33,7 @@ export const Button = ({
     <div className="m-2">
       <button
         title={(title && t(title)) || (modeLanguage ? t(languageSelected) : "")}
-        className={`w-10 h-10 text-center rounded-full transition ease-in-out translate-y-1 hover:scale-125 duration-300 hover:text-blue-500`}
+        className={`w-10 h-10 text-center rounded-full transition ease-in-out translate-y-1 hover:scale-125 duration-300 ${classname}`}
         onClick={() => {
           if (modeLightDarkActive) {
             toggleModeLightDark?.();

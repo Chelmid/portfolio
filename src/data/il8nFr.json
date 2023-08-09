@@ -2,10 +2,16 @@
     "bello": "Bonjour",
     "job":{
         "developer" : "Développeur",
+        "developerIn" : "Dévelopeur chez",
+        "integrator" : "integrateur",
         "description": {
           "intro": "Je suis Michel, un artisan du code passionné par l'art de créer des solutions numériques. Imaginez un concepteur innovant et un magicien du développement fusionnés en une seule personne (et c'est moi qui endosse ce rôle !). J'équilibre les langages de programmation avec la grâce d'un funambule, en donnant vie à des applications et des fonctionnalités qui éblouissent. Prêt à vous embarquer dans une aventure où la technologie et le plaisir se rejoignent harmonieusement ? Suivez-moi dans ce périple captivant !",
           "part2": "😉"
         }
+    },
+    "section":{
+      "project": "Projets",
+      "technology" : "Technologies"
     },
     "icons" : {"more" : "Et plus ..."},
     "FR" : "Français",
