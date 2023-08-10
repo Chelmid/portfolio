@@ -21,7 +21,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
       <div
         className={`${
           scrollPosition !== undefined && scrollPosition > 60
-            ? "md:block flex flex-row fixed top-0 right-0 transition duration-1000 ease-linear delay-100 bg-indigo-200 h-16 md:h-full rounded-full"
+            ? "scrollbarRight md:block flex flex-row fixed top-0 right-0 transition duration-500 ease-linear bg-indigo-200 h-16 md:h-full rounded-full"
             : "flex flex-row absolute"
         }`}>
         {activeButtons && (

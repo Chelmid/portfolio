@@ -9,7 +9,7 @@ export const CardProjet = ({ namesBadge }: CardProjetProps) => {
     <div className="p-5 m-auto">
       <div>
         <button className="group relative block h-64 sm:h-80 lg:h-80 w-80">
-          <span className="rounded-lg  absolute inset-0 border-2 border-dashed border-black"></span>
+          <span className="rounded-lg  absolute inset-0"></span>
 
           <div className="rounded-lg relative flex h-full transform items-end border-2 bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
             <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 ">

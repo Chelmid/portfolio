@@ -5,6 +5,14 @@ export const dataExperience = [
         name: "Océan",
         city: "Saint-Denis",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:"",
+        },
+        cardback:{
+          name:"",
+          description: ["Pair programming","déveloper des nouvelles fonctionnalistés","Corrections de bugs","utilisation de la méthode agile"],
+        }
       },
     },
     {
@@ -13,6 +21,14 @@ export const dataExperience = [
         name: "ParkingMap",
         city: "Clichy",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:""
+        },
+        cardback:{
+          name:"",
+          description:""
+        }
       },
     },
     {
@@ -21,6 +37,14 @@ export const dataExperience = [
         name: "Blue Cactus Factory",
         city: "Bruyères-le-Châtel",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:""
+        },
+        cardback:{
+          name:"",
+          description:""
+        }
       },
     },
     {
@@ -29,6 +53,14 @@ export const dataExperience = [
         name: "Xoopar",
         city: "Paris",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:""
+        },
+        cardback:{
+          name:"",
+          description:""
+        }
       },
     },
     {
@@ -37,6 +69,14 @@ export const dataExperience = [
         name: "Solt Expertiz",
         city: "Kremlin-Bicêtre",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:""
+        },
+        cardback:{
+          name:"",
+          description:""
+        }
       },
     },
     {
@@ -45,6 +85,14 @@ export const dataExperience = [
         name: "Group GTS",
         city: "Paris",
         description: "blabla",
+        cardfront:{
+          name:"",
+          description:""
+        },
+        cardback:{
+          name:"",
+          description:""
+        }
       },
     },
   ];

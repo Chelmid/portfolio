@@ -109,6 +109,10 @@
         }
     }
 
+    .scrollbarRight {
+        background-color: #19233a;
+    }
+
     >div>div {
         box-shadow: 0px 0px 50px -20px #ccc;
 
@@ -146,7 +150,7 @@
 
                 >button {
 
-                    background-color: #1e3a8a;
+                    background-color: #6366f1;
                     color: #67e8f9;
                 }
             }
@@ -175,6 +179,14 @@
     .button-bottom {
         background-color: #1e40af;
         color: #a5f3fc
+    }
+
+    .nameExperience {
+        color: #a5f3fc
+    }
+
+    .cityExperience {
+        color: white
     }
 }
 
