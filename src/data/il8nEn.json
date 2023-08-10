@@ -2,7 +2,6 @@
     "hello": "Hello",
     "job":{
         "developer" : "Developper",
-        "developerIn" : "Developer in",
         "integrator" : "integrator",
         "description": {
           "intro": "This is a simple example.",

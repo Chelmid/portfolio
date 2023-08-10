@@ -11,11 +11,11 @@ export const Experience = () => {
           <div
             className="-my-6 flex flex-wrap experience sm:w-80 md:w-96 xl:w-full cursor-pointer"
             key={index}>
-            <div className="relative pl-8 sm:pl-32 py-6 group xl:mr-20 w-96">
+            <div className="relative pl-8 sm:pl-32 py-6 group w-6/12">
               <div className="nameExperience font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">
                 {index === 5
-                  ? `${t("job.developerIn")} ${item.parcours.name}`
-                  : `${t("job.developerIn")} ${item.parcours.name}`}
+                  ? `${t("job.developer")} ${item.parcours.name}`
+                  : `${t("job.developer")} ${item.parcours.name}`}
               </div>
               <div
                 className={`flex flex-col sm:flex-row items-start mb-1 dateExperience ${
@@ -32,10 +32,7 @@ export const Experience = () => {
                 {item.parcours.description}
               </div>
             </div>
-            <FlipCard
-              cardFront={item.parcours.cardfront}
-              cardBack={item.parcours.cardback}
-            />
+            <FlipCard data={item.parcours} />
           </div>
         ))}
       </div>
