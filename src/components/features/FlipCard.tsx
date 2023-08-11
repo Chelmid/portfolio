@@ -1,8 +1,6 @@
+import { useTranslation } from "react-i18next";
+
 type FlipCardProps = {
-  date: string;
-  name: string;
-  city: string;
-  description: string;
   cardfront: {
     name: string;
     description: string;
@@ -15,9 +13,11 @@ type FlipCardProps = {
 
 type datasProps = {
   data: FlipCardProps;
+  index: number;
 };
 
-export const FlipCard = ({ data }: datasProps) => {
+export const FlipCard = ({ data, index }: Partial<datasProps>) => {
+  const { t } = useTranslation();
   return (
     <div className="flex justify-end m-auto">
       <div>
@@ -25,12 +25,12 @@ export const FlipCard = ({ data }: datasProps) => {
           <div className="flip-card other">
             <div className="flip-card-inner">
               <div className="flip-card-front p-3">
-                <p>{data?.cardfront?.description}</p>
+                <p>{t(`experience.description${index}`)}</p>
               </div>
               <div className="flip-card-back">
                 <div className="p-1">
                   {data?.cardback?.description.map((item) => (
-                    <div>{item}</div>
+                    <div key={item}>{item}</div>
                   ))}
                 </div>
               </div>

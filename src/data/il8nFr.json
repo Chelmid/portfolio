@@ -4,18 +4,38 @@
         "developer" : "Développeur",
         "integrator" : "integrateur",
         "description": {
-          "intro": "Je suis Michel, En reconversion professionnelle depuis maintenant deux ans. Curieux dans pleins de domaines, je complète sans cesse mes compétences et serais ravis d'apprendre à maîtriser de nouveaux outils, partager mes compétences, et monter sur celles que j'ai déjà acquises!",
+          "intro": "Je suis Michel, En reconversion professionnelle depuis maintenant deux ans. Curieux dans pleins de domaines, je complète sans cesse mes compétences et serais ravis d'apprendre à maîtriser de nouveaux outils, partager mes compétences, et monter sur celles que j'ai déjà acquises !",
           "part2": "😉"
         }
     },
     "section":{
-      "project": "Projets",
-      "technology" : "Technologies"
+      "project": "Les projets",
+      "technologies" : "Les technologies",
+      "experience" : "Mes expériences"
     },
     "icons" : {"more" : "Et plus ..."},
-    "FR" : "Français",
-    "EN" : "Anglais",
-    "dark" : "Sombre",
-    "light": "Clair"
-    
+    "language" : {"FR" : "Français", "EN" : "Anglais"},
+    "lighting" : {"dark" : "Sombre", "light": "Clair"},
+    "month": {
+      "January": "Janvier",
+      "February": "Février",
+      "March": "Mars",
+      "April": "Avril",
+      "May": "Mai",
+      "June":"Juin",
+      "July": "Juillet",
+      "August": "Août",
+      "September":"Septembre",
+      "October": "Octobre",
+      "November": "Novembre",
+      "December": "Décembre"
+    },
+    "experience" : {
+      "description0" : "Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
+      "description1" : "Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
+      "description2" : "Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle.",
+      "description3" : "Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes.",
+      "description4" : "Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée.",
+      "description5" : "Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle."
+    }
 }

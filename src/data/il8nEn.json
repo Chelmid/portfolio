@@ -4,17 +4,38 @@
         "developer" : "Developper",
         "integrator" : "integrator",
         "description": {
-          "intro": "This is a simple example.",
+          "intro": "I am Michel, currently in the process of a career change for the past two years. I am curious about various fields, continuously enhancing my skills, and would be delighted to learn to master new tools, share my expertise, and build upon the skills I have already acquired !",
           "part2": "😉"
         }
     },
     "section":{
       "project": "Projects",
-      "technologies" : "Technologies"
+      "technologies" : "Technologies",
+      "experience" : "My experience"
     },
     "icons" : {"more" : "And more ..."},
-    "FR" : "French",
-    "EN" : "English",
-    "dark" : "Dark",
-    "light": "Light"
+    "language" : {"FR" : "French", "EN" : "English"},
+    "lighting" : {"dark" : "Dark", "light": "Light"},
+    "month": {
+      "January": "January",
+      "February": "February",
+      "March": "March",
+      "April": "April",
+      "May": "May",
+      "June":"June",
+      "July": "July",
+      "August": "August",
+      "September":"September",
+      "October": "October",
+      "November": "November",
+      "December": "December"
+    },
+    "experience" : {
+      "description0" : "The project aims to modernize their vehicle management platform using more advanced technologies. The goal is to transition their clientele to the new user interface.",
+      "description1" : "The essence of the project is to optimize the parking management platform, while providing a more user-friendly experience through interface enhancements.",
+      "description2" : "The project aims to design custom websites in response to client requests.",
+      "description3" : "The project aims to enhance Xoopar's current website and revamp it into two versions for BtoB and BtoC customers, thereby streamlining the ordering process.",
+      "description4" : "The project involves reorganizing the Solt Expertiz website to provide better service and an enhanced presentation.",
+      "description5" : "The project aims to design attractive graphic elements and websites for the clientele."
+    }
 }

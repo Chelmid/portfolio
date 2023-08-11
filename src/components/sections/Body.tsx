@@ -25,10 +25,10 @@ export const Body = () => {
       <Section title={`${t("section.project")}`}>
         <Project />
       </Section>
-      <Section title="Les Technos">
+      <Section title={t("section.technologies")}>
         <TechnosIcons />
       </Section>
-      <Section title="Mon parcours">
+      <Section title={t("section.experience")}>
         <div className="flex">
           <Experience />
         </div>

@@ -47,9 +47,9 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
               classname="button-without-icon"
               icons={
                 ModeLightDark ? (
-                  <MdNightlight size={32} title={t("dark")} />
+                  <MdNightlight size={32} title={t("lighting.dark")} />
                 ) : (
-                  <MdLightMode size={32} title={t("light")} />
+                  <MdLightMode size={32} title={t("lighting.light")} />
                 )
               }
               modeLightDarkActive

@@ -237,7 +237,7 @@
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #3b82f6;
-    color: #192353;
+    background-color: #e0e7ff;
+    outline: 2px solid #6366f1;
     transform: rotateY(180deg);
 }
