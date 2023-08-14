@@ -19,8 +19,8 @@ export function breakLine(
       {paragrapheSplit
         .join("")
         .split("\n")
-        .map((e) => (
-          <p>{e}</p>
+        .map((e, i) => (
+          <p key={i}>{e}</p>
         ))}
     </>
   );

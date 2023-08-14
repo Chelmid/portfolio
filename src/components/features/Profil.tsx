@@ -32,7 +32,7 @@ export const Profil = ({ name, titleJob, description }: PorfilProps) => {
             <h3 className="text-center text-4xl">{titleJob}</h3>
           </div>
         </div>
-        <div className="text-center font-sembold p-10 w-2/4 m-auto">
+        <div className="text-center font-sembold p-10 w-3/4 m-auto">
           {descriptionwithBreaksLines}
         </div>
       </div>
