@@ -17,7 +17,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex relative justify-end z-10">
+    <div className="flex relative justify-end z-10 bouton-top-profile">
       <div
         className={`${
           scrollPosition !== undefined && scrollPosition > 60
@@ -29,7 +29,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
             <Button
               icons={<SiGithub size={36} title="Github" />}
               link=""
-              classname="button-with-icon"
+              classname="button-with-icon mt-0 md:mt-2"
             />
             <Button
               icons={
@@ -39,12 +39,12 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
                   className="rounded-full"
                 />
               }
-              classname="button-with-icon"
+              classname="button-with-icon mt-0 md:mt-2"
               link=""
             />
-            <Button modeLanguage classname="button-without-icon" />
+            <Button modeLanguage classname="button-without-icon mt-0 md:mt-2" />
             <Button
-              classname="button-without-icon"
+              classname="button-without-icon mt-0 md:mt-2"
               icons={
                 ModeLightDark ? (
                   <MdNightlight size={32} title={t("lighting.dark")} />

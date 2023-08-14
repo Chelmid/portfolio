@@ -16,7 +16,7 @@ export const dataExperience = [
         },
         name: "Océan",
         city: "Saint-Denis",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
@@ -49,7 +49,7 @@ export const dataExperience = [
         },
         name: "ParkingMap",
         city: "Clichy",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
@@ -82,7 +82,7 @@ export const dataExperience = [
         },
         name: "Blue Cactus Factory",
         city: "Bruyères-le-Châtel",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle."
@@ -112,7 +112,7 @@ export const dataExperience = [
         },
         name: "Xoopar",
         city: "Paris",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes."
@@ -141,7 +141,7 @@ export const dataExperience = [
 
         name: "Solt Expertiz",
         city: "Kremlin-Bicêtre",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée du produit."
@@ -169,7 +169,7 @@ export const dataExperience = [
         },
         name: "Group GTS",
         city: "Paris",
-        description: "blabla",
+        description: "",
         cardfront:{
           name:"",
           description:"Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle"

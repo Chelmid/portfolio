@@ -5,7 +5,7 @@ import { FlipCard } from "./FlipCard";
 export const Experience = () => {
   const { t } = useTranslation();
   return (
-    <div className="py-10 m-auto ">
+    <div className="py-10 m-auto experience-zone">
       <div>
         {dataExperience?.map((item, index) => (
           <div

@@ -30,7 +30,7 @@ export const Button = ({
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="my-3 mx-2">
+    <div className="m-2">
       <button
         title={
           (title && t(title)) ||

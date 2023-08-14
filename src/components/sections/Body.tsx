@@ -37,7 +37,7 @@ export const Body = () => {
         <div
           className={`${
             scrollPosition > 60
-              ? "fixed bottom-0 right-0 transition duration-500 ease-linear delay-100 opacity-100 z-50 rounded-full bg-indigo-200 md:bg-transparent"
+              ? "scrollbar-md fixed bottom-0 right-0 transition duration-500 ease-linear delay-100 opacity-100 z-50 rounded-full md:bg-transparent"
               : ""
           }`}>
           <Button
