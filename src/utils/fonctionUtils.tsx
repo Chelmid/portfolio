@@ -1,7 +1,7 @@
 export function breakLine(
   paragraphe: string,
   element: string,
-  replaceFor: string
+  replaceFor: string | string[]
 ) {
   const paragrapheSplit = paragraphe.split("");
 
@@ -11,7 +11,14 @@ export function breakLine(
     const positionsElements = paragrapheSplit.flatMap((e, i) =>
       e === element ? i : []
     );
-    paragrapheSplit.splice(positionsElements[index] + 1, 0, replaceFor);
+
+    if (Array.isArray(replaceFor)) {
+      replaceFor.map((replace) => {
+        paragrapheSplit.splice(positionsElements[index] + 1, 0, replace);
+      });
+    } else {
+      paragrapheSplit.splice(positionsElements[index] + 1, 0, replaceFor);
+    }
   }
 
   return (
@@ -20,7 +27,7 @@ export function breakLine(
         .join("")
         .split("\n")
         .map((e, i) => (
-          <p key={i}>{e}</p>
+          <div key={i}>{e.length > 0 ? <p key={i}>{e}</p> : <br></br>}</div>
         ))}
     </>
   );

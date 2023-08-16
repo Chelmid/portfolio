@@ -1,4 +1,4 @@
-import { breakLine } from "../../utils/string";
+import { breakLine } from "../../utils/fonctionUtils";
 import { Menu } from "./Menu";
 
 type PorfilProps = {

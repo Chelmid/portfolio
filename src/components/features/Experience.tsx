@@ -38,7 +38,7 @@ export const Experience = () => {
                 {item.parcours.description}
               </div>
             </div>
-            <FlipCard data={item.parcours} index={index} />
+            <FlipCard index={index} />
           </div>
         ))}
       </div>

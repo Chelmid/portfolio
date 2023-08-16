@@ -39,36 +39,86 @@
     "December": "December"
   },
   "experience": {
-    "description0": "The project aims to modernize their vehicle management platform using more advanced technologies. The goal is to transition their clientele to the new user interface.",
-    "description1": "The essence of the project is to optimize the parking management platform, while providing a more user-friendly experience through interface enhancements.",
-    "description2": "The project aims to design custom websites in response to client requests.",
-    "description3": "The project aims to enhance Xoopar's current website and revamp it into two versions for BtoB and BtoC customers, thereby streamlining the ordering process.",
-    "description4": "The project involves reorganizing the Solt Expertiz website to provide better service and an enhanced presentation.",
-    "description5": "The project aims to design attractive graphic elements and websites for the clientele."
+    "cardFront": {
+      "description0": "The project aims to modernize their vehicle management platform using more advanced technologies. The goal is to transition their clientele to the new user interface.",
+      "description1": "The essence of the project is to optimize the parking management platform, while providing a more user-friendly experience through interface enhancements.",
+      "description2": "The project aims to design custom websites in response to client requests.",
+      "description3": "The project aims to enhance Xoopar's current website and revamp it into two versions for BtoB and BtoC customers, thereby streamlining the ordering process.",
+      "description4": "The project involves reorganizing the Solt Expertiz website to provide better service and an enhanced presentation.",
+      "description5": "The project aims to design attractive graphic elements and websites for the clientele."
+    },
+    "cardBack": {
+      "description0": [
+        "Translates JAVA functionality into JavaScript",
+        "Pair programming and mutual help",
+        "Use of the agile method",
+        "Reactjs, CSS, React-bootstrap , jenkins, API, etc..."
+      ],
+      "description1": [
+        "Develop new functionalities, interfaces",
+        "Using a map lib",
+        "Documentation writing",
+        "Reactjs, Mapbox, bootstrap, PHP, etc ..."
+      ],
+      "description2": [
+        "Develop sites for customers on request",
+        "Team management",
+        "Using Figma for Mockups",
+        "Reactjs, Symfony, language natif, etc ..."
+      ],
+      "description3": [
+        "Magento website improvement",
+        "Find a solution for customers (BtoB, BtoC)",
+        "Accompany a project manager",
+        "Magneto, shopify, HTML, CSS, JavaScript"
+      ],
+      "description4": [
+        "Redesign of the website",
+        "Use of the agile method (Scrum)",
+        "Team work",
+        "HTML, CSS, JavaScript, PHP, MySQL"
+      ],
+      "description5": [
+        "Logo design",
+        "Resize images",
+        "Elements integrator for Wordpress"
+      ]
+    }
   },
   "project": {
     "container0": {
       "name": "Constant evolution",
       "badges": [
         "In progress",
-        "Obtain skills"
+        "Obtain new skills"
       ],
       "description": "Outside of work, my personal development projects keep me up to date technologically. By creating applications and exploring new frameworks, I strengthen my practical mastery while interacting with the online community. These projects stimulate my growth, strengthen my professionalism and nourish my passion for IT."
     },
     "container1": {
+      "name": "Project of this portfolio website",
+      "badges": [
+        "React",
+        "Tailwindcss",
+        "Typescript",
+        "viteJs"
+      ],
+      "description": "The objective of designing this portfolio is: on the one hand, it allows me to implement both my newly acquired skills and those that I have already mastered in the past. On the other hand, it aims to effectively solve problems that arise when integrating new ideas or features. The source code of the project is available on my GitHub."
+    },
+    "container2": {
       "name": "Nextjs exploration project",
       "badges": [
         "Nextjs",
         "CSS",
-        "Typescript"
+        "Firebase"
       ],
-      "description": "The goal of this project was to discover the universe of Next.js. The idea behind this was to develop a review site similar to The Fork, with a personal touch. To achieve this, I used Firebase for data management, login and registration, and Next.js for the project site architecture. The source code of the project is available on my GitHub."
+      "description": "The goal of this project was to discover Nextjs. The idea is to make an evaluation site similar to La Fourchette, with a personal touch, I used Firebase for data management, for login and registration, as well as Nextjs for the architecture of the project site . The source code of the project is available on my GitHub."
     },
-    "container2": {
+    "container3": {
       "name": "Django Discovery Project",
       "badges": [
         "Python",
-        "Django"
+        "Django",
+        "API"
       ],
       "description": "My exploration of Django led me to create a simple quiz, using an API to manage themes and questions. The goal of this project is to manipulate Django and API integrations, while producing an engaging interactive quiz. For more information and the source code, see the dedicated page on my GitHub."
     }

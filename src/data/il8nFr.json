@@ -39,36 +39,86 @@
     "December": "Décembre"
   },
   "experience": {
-    "description0": "Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
-    "description1": "Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
-    "description2": "Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle.",
-    "description3": "Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes.",
-    "description4": "Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée.",
-    "description5": "Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle."
+    "cardFront": {
+      "description0": "Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
+      "description1": "Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
+      "description2": "Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle.",
+      "description3": "Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes.",
+      "description4": "Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée.",
+      "description5": "Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle."
+    },
+    "cardBack": {
+      "description0": [
+        "Retranscrits les fonctionalité JAVA en JavaScript",
+        "Pair programming et entraide",
+        "Utilisation de la méthode agile",
+        "Reactjs, CSS, React-bootstrap , jenkins, API, etc..."
+      ],
+      "description1": [
+        "Déveloper des nouvelles fonctionnalistés, interfaces",
+        "Utilisation d'une lib de carte",
+        "Rédaction de la documentation",
+        "Reactjs, Mapbox, bootstrap, PHP, etc ..."
+      ],
+      "description2": [
+        "Déveloper des sites pour la clientèle sur demande",
+        "Gestion d'une équipe",
+        "Utilsation de Figma pour des maquettes",
+        "Reactjs, Symfony, language natif, etc ..."
+      ],
+      "description3": [
+        "Amélioration du site web Magento",
+        "Trouver une solution pour la clientele (BtoB,BtoC)",
+        "Accompagner d'un chef de projet",
+        "Magneto, shopify, HTML, CSS, JavaScript"
+      ],
+      "description4": [
+        "Refonte du site web",
+        "Utilisation de la méthode agile (Scrum)",
+        "Travail en équipe",
+        "HTML, CSS, JavaScript, PHP, MySQL"
+      ],
+      "description5": [
+        "Création de logo",
+        "Redimmensionner des images",
+        "Intégrateur des éléments pour wordpress"
+      ]
+    }
   },
   "project": {
     "container0": {
       "name": "Évolution constante",
       "badges": [
         "En cours",
-        "Obtenir des compétences"
+        "Obtenir de nouvelles compétences"
       ],
       "description": "En dehors du travail, mes projets personnels de développement me maintiennent à jour technologiquement. En créant des applications et explorant de nouveaux frameworks, je renforce ma maîtrise pratique tout en interagissant avec la communauté en ligne. Ces projets stimulent ma croissance, renforcent mon professionnalisme et nourrissent ma passion pour l'informatique."
     },
     "container1": {
+      "name": "Projet de ce site web portfolio",
+      "badges": [
+        "React",
+        "Tailwindcss",
+        "Typescript",
+        "ViteJs"
+      ],
+      "description": "L'objectif de concevoir ce portfolio sont : d'une part, il me permet de mettre en œuvre aussi bien mes compétences nouvellement acquises que celles que j'ai déjà maîtrisées par le passé. D'autre part, il vise à résoudre efficacement les problèmes qui se posent lorsqu'on intègre de nouvelles idées ou fonctionalités. Le code source du projet est disponible sur mon GitHub."
+    },
+    "container2": {
       "name": "Projet d'exploration de Nextjs",
       "badges": [
         "Nextjs",
         "CSS",
-        "Typescript"
+        "Firebase"
       ],
-      "description": "Le but de ce projet était de découvrir l'univers de Next.js. L'idée derrière cela était de développer un site d'évaluation similaire à La Fourchette, avec une touche personnelle. Pour réaliser cela, j'ai utilisé Firebase pour la gestion des données, pour connexion et d'inscription, ainsi que Next.js pour l'architecture du site du projet. Le code source du projet est disponible sur mon GitHub."
+      "description": "Le but de ce projet était de découvrir Nextjs. L'idée est de réaliser un site d'évaluation similaire à La Fourchette, avec une touche personnelle, j'ai utilisé Firebase pour la gestion des données, pour connexion et d'inscription, ainsi que Nextjs pour l'architecture du site du projet. Le code source du projet est disponible sur mon GitHub."
     },
-    "container2": {
+    "container3": {
       "name": "Projet découverte de Django",
       "badges": [
         "Python",
-        "Django"
+        "Django",
+        "API"
       ],
       "description": "Mon exploration de Django m'as conduit à crée un simple quizz, en utilisant une API pour gérer les thèmes et les questions. Le but de ce projet est de manipuler Django et les intégrations d'API, tout en produisant un quizz interactif captivant. Pour plus d'informations et le code source, consultez la page dédiée sur mon GitHub."
     }
