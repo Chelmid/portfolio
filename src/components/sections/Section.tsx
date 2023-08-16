@@ -5,7 +5,7 @@ type SectionProps = {
   title: string;
 };
 
-export const Section = ({ children, title }: SectionProps) => {
+export const Section = ({ children, title = "" }: SectionProps) => {
   return (
     <div className="section">
       <div className="m-auto w-11/12">

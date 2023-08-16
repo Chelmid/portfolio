@@ -7,7 +7,11 @@ type PorfilProps = {
   description?: string;
 };
 
-export const Profil = ({ name, titleJob, description }: PorfilProps) => {
+export const Profil = ({
+  name = "",
+  titleJob = "",
+  description = "",
+}: PorfilProps) => {
   let descriptionwithBreaksLines;
   if (description)
     descriptionwithBreaksLines = breakLine(description, ".", "\n");

@@ -16,7 +16,7 @@ type datasProps = {
   index: number;
 };
 
-export const FlipCard = ({ data, index }: Partial<datasProps>) => {
+export const FlipCard = ({ data, index = 0 }: Partial<datasProps>) => {
   const { t } = useTranslation();
   return (
     <div className="flex justify-end m-auto">

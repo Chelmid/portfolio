@@ -1,18 +1,19 @@
+import { useTranslation } from "react-i18next";
+import { FiMoreHorizontal } from "react-icons/fi";
+import { IoLogoGitlab } from "react-icons/io5";
 import {
-  SiReact,
-  SiTailwindcss,
-  SiFigma,
   SiAdobeillustrator,
   SiAdobephotoshop,
-  SiSymfony,
-  SiMysql,
+  SiFigma,
+  SiGit,
   SiJirasoftware,
+  SiMysql,
   SiNodedotjs,
+  SiReact,
+  SiSymfony,
+  SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { IoLogoGitlab } from "react-icons/io5";
-import { FiMoreHorizontal } from "react-icons/fi";
-import { useTranslation } from "react-i18next";
 
 export const TechnosIcons = () => {
   const { t } = useTranslation();
@@ -107,10 +108,10 @@ export const TechnosIcons = () => {
             size={64}
             title="Gitlab"
           />
-          <SiAdobephotoshop
+          <SiGit
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
-            title="Adobe Photoshop"
+            title="Git"
           />
           <FiMoreHorizontal
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 self-end cursor-pointer"

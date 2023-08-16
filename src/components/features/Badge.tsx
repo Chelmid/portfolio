@@ -1,7 +1,7 @@
-type BagdeProps = {
+type BadgeProps = {
   namesBadge?: string[];
 };
-export const Bagde = ({ namesBadge }: BagdeProps) => {
+export const Badge = ({ namesBadge = [] }: BadgeProps) => {
   return (
     <div className="my-1">
       {namesBadge?.map((name) => (

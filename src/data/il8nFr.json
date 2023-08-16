@@ -1,41 +1,76 @@
 {
-    "bello": "Bonjour",
-    "job":{
-        "developer" : "Développeur",
-        "integrator" : "integrateur",
-        "description": {
-          "intro": "Je suis Michel, en reconversion professionnelle depuis maintenant deux ans. Curieux dans pleins de domaines, je complète sans cesse mes compétences et serais ravis d'apprendre à maîtriser de nouveaux outils. Partager mes compétences, et monter sur celles que j'ai déjà acquises !",
-          "part2": "😉"
-        }
-    },
-    "section":{
-      "project": "Les projets",
-      "technologies" : "Les technologies",
-      "experience" : "Mes expériences"
-    },
-    "icons" : {"more" : "Et plus ..."},
-    "language" : {"FR" : "Français", "EN" : "Anglais"},
-    "lighting" : {"dark" : "Sombre", "light": "Clair"},
-    "month": {
-      "January": "Janvier",
-      "February": "Février",
-      "March": "Mars",
-      "April": "Avril",
-      "May": "Mai",
-      "June":"Juin",
-      "July": "Juillet",
-      "August": "Août",
-      "September":"Septembre",
-      "October": "Octobre",
-      "November": "Novembre",
-      "December": "Décembre"
-    },
-    "experience" : {
-      "description0" : "Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
-      "description1" : "Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
-      "description2" : "Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle.",
-      "description3" : "Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes.",
-      "description4" : "Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée.",
-      "description5" : "Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle."
+  "bello": "Bonjour",
+  "job": {
+    "developer": "Développeur",
+    "integrator": "integrateur",
+    "description": {
+      "intro": "Je suis Michel, en reconversion professionnelle depuis maintenant deux ans. Curieux dans pleins de domaines, je complète sans cesse mes compétences et serais ravis d'apprendre à maîtriser de nouveaux outils. Partager mes compétences, et monter sur celles que j'ai déjà acquises !",
+      "part2": "😉"
     }
+  },
+  "section": {
+    "project": "Les projets",
+    "technologies": "Les technologies",
+    "experience": "Mes expériences"
+  },
+  "icons": {
+    "more": "Et plus ..."
+  },
+  "language": {
+    "FR": "Français",
+    "EN": "Anglais"
+  },
+  "lighting": {
+    "dark": "Sombre",
+    "light": "Clair"
+  },
+  "month": {
+    "January": "Janvier",
+    "February": "Février",
+    "March": "Mars",
+    "April": "Avril",
+    "May": "Mai",
+    "June": "Juin",
+    "July": "Juillet",
+    "August": "Août",
+    "September": "Septembre",
+    "October": "Octobre",
+    "November": "Novembre",
+    "December": "Décembre"
+  },
+  "experience": {
+    "description0": "Le projet vise à moderniser leur plateforme de gestion de véhicules en utilisant des technologies plus avancées. L'objectif est de faire passer leur clientèle vers la IHM.",
+    "description1": "Le projet a pour essence d'optimiser la plateforme de Gestion de parking, tout en offrant une expérience utilisateur plus conviviale grâce à des améliorations de l'interface.",
+    "description2": "Le projet a pour but de concevoir des sites web sur mesure en réponse aux demandes de la clientèle.",
+    "description3": "Le projet vise à améliore le site web actuel de Xoopar et de faire une refonte en deux versions pour les clientèles BtoB et BtoC, et en simplifiant ainsi les commandes.",
+    "description4": "Le projet consiste à réorganiser le site web de Solt Expertiz pour offrir un meilleur service et une présentation améliorée.",
+    "description5": "Le projet a pour but de concevoir des éléments graphiques attrayants et des sites web pour la clientèle."
+  },
+  "project": {
+    "container0": {
+      "name": "Évolution constante",
+      "badges": [
+        "En cours",
+        "Obtenir des compétences"
+      ],
+      "description": "En dehors du travail, mes projets personnels de développement me maintiennent à jour technologiquement. En créant des applications et explorant de nouveaux frameworks, je renforce ma maîtrise pratique tout en interagissant avec la communauté en ligne. Ces projets stimulent ma croissance, renforcent mon professionnalisme et nourrissent ma passion pour l'informatique."
+    },
+    "container1": {
+      "name": "Projet d'exploration de Nextjs",
+      "badges": [
+        "Nextjs",
+        "CSS",
+        "Typescript"
+      ],
+      "description": "Le but de ce projet était de découvrir l'univers de Next.js. L'idée derrière cela était de développer un site d'évaluation similaire à La Fourchette, avec une touche personnelle. Pour réaliser cela, j'ai utilisé Firebase pour la gestion des données, pour connexion et d'inscription, ainsi que Next.js pour l'architecture du site du projet. Le code source du projet est disponible sur mon GitHub."
+    },
+    "container2": {
+      "name": "Projet découverte de Django",
+      "badges": [
+        "Python",
+        "Django"
+      ],
+      "description": "Mon exploration de Django m'as conduit à crée un simple quizz, en utilisant une API pour gérer les thèmes et les questions. Le but de ce projet est de manipuler Django et les intégrations d'API, tout en produisant un quizz interactif captivant. Pour plus d'informations et le code source, consultez la page dédiée sur mon GitHub."
+    }
+  }
 }

@@ -1,15 +1,20 @@
-import { Bagde } from "./Badge";
+import { Badge } from "./Badge";
 
 type CardProjetProps = {
+  id?: string;
   namesBadge?: string[];
   title?: string;
   description?: string;
+  image?: string;
+  alt?: string;
 };
 
 export const CardProjet = ({
-  namesBadge,
-  title,
-  description,
+  namesBadge = [],
+  title = "",
+  description = "",
+  image = "",
+  alt = "",
 }: CardProjetProps) => {
   return (
     <div className="p-5 m-auto cardProjet">
@@ -21,11 +26,11 @@ export const CardProjet = ({
             <div className="p-4 transition-opacity group-hover:absolute group-hover:opacity-0 w-full">
               <img
                 className="object-cover object-center h-48 w-full"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                alt="Woman looking front"
+                src={image}
+                alt={alt}
               />
               <h2 className="mt-4 text-xl font-medium">{title}</h2>
-              <Bagde namesBadge={namesBadge} />
+              <Badge namesBadge={namesBadge} />
             </div>
 
             <div className="absolute p-4 opacity-0 transition-opacity top-[-10px] group-hover:absolute group-hover:opacity-100">

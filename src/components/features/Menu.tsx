@@ -1,10 +1,10 @@
-import { SiGithub, SiLinkedin } from "react-icons/si";
-import { MdLightMode, MdNightlight } from "react-icons/md";
-import { Button } from "./Button";
 import { useContext } from "react";
+import { useTranslation } from "react-i18next";
+import { MdLightMode, MdNightlight } from "react-icons/md";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 import { ModeLightDarkContext } from "../../utils/ModeLightDark";
 import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
-import { useTranslation } from "react-i18next";
+import { Button } from "./Button";
 
 type MenuProps = {
   activeButtons?: boolean;
@@ -28,7 +28,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
           <>
             <Button
               icons={<SiGithub size={36} title="Github" />}
-              link=""
+              link="https://github.com/Chelmid"
               classname="button-with-icon mt-0 md:mt-2"
             />
             <Button
@@ -40,7 +40,7 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
                 />
               }
               classname="button-with-icon mt-0 md:mt-2"
-              link=""
+              link="https://www.linkedin.com/in/michel-l-b47070134/"
             />
             <Button modeLanguage classname="button-without-icon mt-0 md:mt-2" />
             <Button

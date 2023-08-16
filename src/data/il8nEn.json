@@ -1,41 +1,76 @@
 {
-    "hello": "Hello",
-    "job":{
-        "developer" : "Developper",
-        "integrator" : "integrator",
-        "description": {
-          "intro": "I am Michel, currently in the process of a career change for the past two years. I am curious about various fields, continuously enhancing my skills, and would be delighted to learn to master new tools. Share my expertise, and build upon the skills I have already acquired !",
-          "part2": "😉"
-        }
-    },
-    "section":{
-      "project": "Projects",
-      "technologies" : "Technologies",
-      "experience" : "My experience"
-    },
-    "icons" : {"more" : "And more ..."},
-    "language" : {"FR" : "French", "EN" : "English"},
-    "lighting" : {"dark" : "Dark", "light": "Light"},
-    "month": {
-      "January": "January",
-      "February": "February",
-      "March": "March",
-      "April": "April",
-      "May": "May",
-      "June":"June",
-      "July": "July",
-      "August": "August",
-      "September":"September",
-      "October": "October",
-      "November": "November",
-      "December": "December"
-    },
-    "experience" : {
-      "description0" : "The project aims to modernize their vehicle management platform using more advanced technologies. The goal is to transition their clientele to the new user interface.",
-      "description1" : "The essence of the project is to optimize the parking management platform, while providing a more user-friendly experience through interface enhancements.",
-      "description2" : "The project aims to design custom websites in response to client requests.",
-      "description3" : "The project aims to enhance Xoopar's current website and revamp it into two versions for BtoB and BtoC customers, thereby streamlining the ordering process.",
-      "description4" : "The project involves reorganizing the Solt Expertiz website to provide better service and an enhanced presentation.",
-      "description5" : "The project aims to design attractive graphic elements and websites for the clientele."
+  "hello": "Hello",
+  "job": {
+    "developer": "Developper",
+    "integrator": "integrator",
+    "description": {
+      "intro": "I am Michel, currently in the process of a career change for the past two years. I am curious about various fields, continuously enhancing my skills, and would be delighted to learn to master new tools. Share my expertise, and build upon the skills I have already acquired !",
+      "part2": "😉"
     }
+  },
+  "section": {
+    "project": "Projects",
+    "technologies": "Technologies",
+    "experience": "My experience"
+  },
+  "icons": {
+    "more": "And more ..."
+  },
+  "language": {
+    "FR": "French",
+    "EN": "English"
+  },
+  "lighting": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "month": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  },
+  "experience": {
+    "description0": "The project aims to modernize their vehicle management platform using more advanced technologies. The goal is to transition their clientele to the new user interface.",
+    "description1": "The essence of the project is to optimize the parking management platform, while providing a more user-friendly experience through interface enhancements.",
+    "description2": "The project aims to design custom websites in response to client requests.",
+    "description3": "The project aims to enhance Xoopar's current website and revamp it into two versions for BtoB and BtoC customers, thereby streamlining the ordering process.",
+    "description4": "The project involves reorganizing the Solt Expertiz website to provide better service and an enhanced presentation.",
+    "description5": "The project aims to design attractive graphic elements and websites for the clientele."
+  },
+  "project": {
+    "container0": {
+      "name": "Constant evolution",
+      "badges": [
+        "In progress",
+        "Obtain skills"
+      ],
+      "description": "Outside of work, my personal development projects keep me up to date technologically. By creating applications and exploring new frameworks, I strengthen my practical mastery while interacting with the online community. These projects stimulate my growth, strengthen my professionalism and nourish my passion for IT."
+    },
+    "container1": {
+      "name": "Nextjs exploration project",
+      "badges": [
+        "Nextjs",
+        "CSS",
+        "Typescript"
+      ],
+      "description": "The goal of this project was to discover the universe of Next.js. The idea behind this was to develop a review site similar to The Fork, with a personal touch. To achieve this, I used Firebase for data management, login and registration, and Next.js for the project site architecture. The source code of the project is available on my GitHub."
+    },
+    "container2": {
+      "name": "Django Discovery Project",
+      "badges": [
+        "Python",
+        "Django"
+      ],
+      "description": "My exploration of Django led me to create a simple quiz, using an API to manage themes and questions. The goal of this project is to manipulate Django and API integrations, while producing an engaging interactive quiz. For more information and the source code, see the dedicated page on my GitHub."
+    }
+  }
 }

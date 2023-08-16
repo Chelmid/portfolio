@@ -1,13 +1,13 @@
 import { useContext } from "react";
+import { useTranslation } from "react-i18next";
+import { BsArrowUpCircle } from "react-icons/bs";
+import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
 import { Button } from "../features/Button";
 import { Experience } from "../features/Experience";
 import { Profil } from "../features/Profil";
 import { Project } from "../features/Project";
 import { TechnosIcons } from "../features/TechnoIcons";
 import { Section } from "./Section";
-import { BsArrowUpCircle } from "react-icons/bs";
-import { ScrollBarPositionContext } from "../../utils/ScrollBarPosition";
-import { useTranslation } from "react-i18next";
 
 export const Body = () => {
   const { scrollPosition, handleScrollReset } = useContext(
