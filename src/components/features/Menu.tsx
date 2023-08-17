@@ -17,12 +17,12 @@ export const Menu = ({ activeButtons = false }: MenuProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex relative justify-end z-10 bouton-top-profile">
+    <div className="flex absolute right-0 justify-end z-10 bouton-top-profile">
       <div
         className={`${
           scrollPosition !== undefined && scrollPosition > 60
-            ? "scrollbarRight md:block flex flex-row fixed top-0 right-0 transition duration-500 ease-linear bg-indigo-200 h-16 md:h-full rounded-full"
-            : "flex flex-row absolute"
+            ? "scrollbarRight md:block flex flex-row fixed top-0 right-2 transition duration-500 ease-linear bg-indigo-200 h-16 md:h-full rounded-full"
+            : "flex flex-row fixed"
         }`}>
         {activeButtons && (
           <>

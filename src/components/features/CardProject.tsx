@@ -19,10 +19,10 @@ export const CardProjet = ({
   return (
     <div className="cardProjet py-8 px-10">
       <>
-        <button className="group relative block h-96 w-96">
+        <button className="group relative block h-[26rem] w-80 sm:h-96 sm:w-96">
           <span className="rounded-lg absolute inset-0 card-absolute"></span>
 
-          <div className="card-border rounded-lg relative flex h-full transform items-end transition-transform group-hover:-translate-x-4 group-hover:-translate-y-4 hover:h-96 transition duration-200 ease-linear">
+          <div className="card-border rounded-lg relative flex h-full transform items-end transition-transform group-hover:-translate-x-3 group-hover:-translate-y-3 hover:h-[26rem] sm:hover:h-96 transition duration-200 ease-linear">
             <div className="absolute top-0 p-4 transition-opacity group-hover:absolute group-hover:opacity-0 w-full">
               <img
                 className="object-cover object-center h-60 w-full"

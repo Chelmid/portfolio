@@ -36,9 +36,9 @@ export const Body = () => {
       {scrollPosition && (
         <div
           className={`${
-            scrollPosition > 60
-              ? "scrollbar-md fixed bottom-0 right-0 transition duration-500 ease-linear delay-100 opacity-100 z-50 rounded-full md:bg-transparent"
-              : ""
+            scrollPosition !== undefined &&
+            scrollPosition > 60 &&
+            "scrollbar-md fixed bottom-2 sm:bottom-none right-2 sm:right-none transition duration-500 ease-linear delay-100 opacity-100 z-50 rounded-full md:bg-transparent"
           }`}>
           <Button
             icons={<BsArrowUpCircle size={40} />}

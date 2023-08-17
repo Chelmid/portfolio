@@ -18,8 +18,8 @@ export const Profil = ({
     descriptionwithBreaksLines = breakLine(description, ".", "\n");
 
   return (
-    <div className="section m-auto w-11/12 mt-14 sm:mt-14 shadow-xl">
-      <div className="mx-auto">
+    <div className="section m-auto w-11/12 pt-14 sm:pt-14 shadow-xl">
+      <div className="mx-auto relative">
         <Menu activeButtons />
         <div className="rounded-t-lg h-48 overflow-hidden bar-profil"></div>
         <div className="flex justify-center flex-wrap">

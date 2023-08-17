@@ -1,7 +1,7 @@
 import { ReactNode, createContext, useEffect, useState } from "react";
 
 type ScrollBarPositionContextProps = {
-  scrollPosition?: number;
+  scrollPosition: number;
   handleScrollReset?: (value: number) => void;
 };
 
@@ -9,9 +9,9 @@ type ScrollBarPositionProviderProps = {
   children: ReactNode;
 };
 
-const ScrollBarPositionContext = createContext<ScrollBarPositionContextProps>(
-  {}
-);
+const ScrollBarPositionContext = createContext<ScrollBarPositionContextProps>({
+  scrollPosition: 0,
+});
 
 const ScrollBarPositionProvider = ({
   children,

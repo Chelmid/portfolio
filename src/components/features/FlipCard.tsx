@@ -12,11 +12,11 @@ export const FlipCard = ({ index = 0 }: Partial<datasProps>) => {
         <div className="my-6">
           <div className="flip-card other">
             <div className="flip-card-inner">
-              <div className="flip-card-front p-3">
+              <div className="flip-card-front p-2">
                 <p>{t(`experience.cardFront.description${index}`)}</p>
               </div>
               <div className="flip-card-back">
-                <div className="pt-3">
+                <div className="pt-1">
                   {t(`experience.cardBack.description${index}`, {
                     returnObjects: true,
                   }).map((item: string) => (
