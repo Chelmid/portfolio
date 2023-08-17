@@ -14,7 +14,6 @@ export const Project = () => {
         <CardProjet
           title={t("project.container0.name")}
           namesBadge={t("project.container0.badges", { returnObjects: true })}
-          id={"0"}
           description={t("project.container0.description")}
           image={imageSkill}
           alt={"Skill"}
@@ -22,10 +21,9 @@ export const Project = () => {
         <CardProjet
           title={t("project.container1.name")}
           namesBadge={t("project.container1.badges", { returnObjects: true })}
-          id={"0"}
           description={t("project.container1.description")}
           image={imageReactTailwindcssTypescript}
-          alt={"Skill"}
+          alt={"Portfolio"}
         />
       </div>
       <div className="flex flex-wrap justify-center">

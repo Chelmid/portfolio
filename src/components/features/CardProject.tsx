@@ -2,7 +2,6 @@ import { breakLine } from "../../utils/fonctionUtils";
 import { Badge } from "./Badge";
 
 type CardProjetProps = {
-  id?: string;
   namesBadge?: string[];
   title?: string;
   description?: string;

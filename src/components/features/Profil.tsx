@@ -1,5 +1,6 @@
 import { breakLine } from "../../utils/fonctionUtils";
 import { Menu } from "./Menu";
+import me from "../../assets/image/me.jpeg";
 
 type PorfilProps = {
   name?: string;
@@ -25,7 +26,7 @@ export const Profil = ({
           <div className="w-64 h-64 relative -mt-24 border-4 border-white rounded-full overflow-hidden mr-2">
             <img
               className="object-cover object-center h-64"
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+              src={me}
               alt="Woman looking front"
             />
           </div>

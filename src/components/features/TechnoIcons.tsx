@@ -27,21 +27,25 @@ export const TechnosIcons = () => {
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="React"
+            alt="React"
           />
           <SiTypescript
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Typescript"
+            alt="Typescript"
           />
           <SiTailwindcss
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Tailwindcss"
+            alt="Tailwindcss"
           />
           <FiMoreHorizontal
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 self-end cursor-pointer"
             size={32}
             title={t("icons.more")}
+            alt={t("icons.more")}
           />
         </div>
       </div>
@@ -52,21 +56,25 @@ export const TechnosIcons = () => {
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Symfony"
+            alt="Symfony"
           />
           <SiNodedotjs
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Nodejs"
+            alt="Nodejs"
           />
           <SiMysql
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="MySQL"
+            alt="MySQL"
           />
           <FiMoreHorizontal
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 self-end cursor-pointer"
             size={32}
             title={t("icons.more")}
+            alt={t("icons.more")}
           />
         </div>
       </div>
@@ -77,21 +85,25 @@ export const TechnosIcons = () => {
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Figma"
+            alt="Figma"
           />
           <SiAdobeillustrator
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Adobe Illustrator"
+            alt="Adobe Illustrator"
           />
           <SiAdobephotoshop
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Adobe Photoshop"
+            alt="Adobe Photoshop"
           />
           <FiMoreHorizontal
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 self-end cursor-pointer"
             size={32}
             title={t("icons.more")}
+            alt={t("icons.more")}
           />
         </div>
       </div>
@@ -102,21 +114,25 @@ export const TechnosIcons = () => {
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Jira software"
+            alt="Jira software"
           />
           <IoLogoGitlab
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Gitlab"
+            alt="Gitlab"
           />
           <SiGit
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 cursor-pointer"
             size={64}
             title="Git"
+            alt="Git"
           />
           <FiMoreHorizontal
             className="hover:text-blue-500 hover:scale-125 ease-in duration-200 m-6 self-end cursor-pointer"
             size={32}
             title={t("icons.more")}
+            alt={t("icons.more")}
           />
         </div>
       </div>
